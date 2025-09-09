@@ -1,0 +1,1417 @@
+[Basic]
+DEM=/data/basic/jabar/dem_clipped_jabar_float32.tif
+DDM=/data/basic/jabar/ddm_clipped_jabar_float32.tif
+FAM=/data/basic/jabar/fam_clipped_jabar_float32.tif
+PROJ=geographic
+ESRIDDM=true
+SelfFAM=true
+
+[PETForcing FAO]
+LOC=/data/pet/jabar
+FREQ=1m
+UNIT=mm/d
+NAME=FAO.PET.MM.mm_per_day.proc.jabar.tif
+TYPE=TIF
+
+[PrecipForcing SCAMPR]
+TYPE=TIF
+UNIT=mm/h
+FREQ=10u
+LOC=/data/precip/scampr
+NAME=rrqpe_jawa_sYYYYMMDDHHUU000.tif
+
+[PrecipForcing ECMWF]
+TYPE=TIF
+UNIT=mm/h
+FREQ=1h
+LOC=/data/precip/ecmwf
+NAME=ecmwf_tp_YYYYMMDDHH00.tif
+
+[PrecipForcing GSMAP]
+TYPE=TIF
+UNIT=mm/d
+FREQ=1d
+LOC=/data/precip/gsmap
+NAME=gsmap.daily.YYYYMMDD.tif
+
+[Gauge Gambir]
+LON=106.82958333333332
+LAT=-6.172083333333315
+outputts=true
+
+[Gauge Cideng]
+LON=106.80625
+LAT=-6.16625
+
+[Gauge PetojoUtara]
+LON=106.81125
+LAT=-6.167083333333315
+
+[Gauge PetojoSelatan]
+LON=106.81208333333332
+LAT=-6.174583333333316
+
+[Gauge KebonKelapa]
+LON=106.83041666666665
+LAT=-6.167083333333315
+
+[Gauge DuriPulo]
+LON=106.80041666666665
+LAT=-6.160416666666649
+
+[Gauge PasarBaru]
+LON=106.83541666666666
+LAT=-6.157916666666648
+
+[Gauge KarangAnyar]
+LON=106.82708333333332
+LAT=-6.14875
+
+[Gauge Kartini]
+LON=106.83208333333332
+LAT=-6.14875
+
+[Gauge GunungSahariUtara]
+LON=106.83625
+LAT=-6.152083333333315
+
+[Gauge ManggaDuaSelatan]
+LON=106.82875
+LAT=-6.13625
+
+[Gauge Kemayoran]
+LON=106.84458333333332
+LAT=-6.167916666666649
+
+[Gauge KebonKosong]
+LON=106.85125
+LAT=-6.15625
+
+[Gauge HarapanMulia]
+LON=106.85208333333333
+LAT=-6.174583333333316
+
+[Gauge Serdang]
+LON=106.86625
+LAT=-6.157916666666648
+
+[Gauge GunungSahariSelatan]
+LON=106.83958333333332
+LAT=-6.167916666666649
+
+[Gauge CempakaBaru]
+LON=106.85791666666665
+LAT=-6.165416666666649
+
+[Gauge SumurBatu]
+LON=106.88041666666666
+LAT=-6.162916666666649
+
+[Gauge UtanPanjang]
+LON=106.85375
+LAT=-6.162916666666649
+
+[Gauge Senen]
+LON=106.84125
+LAT=-6.172916666666649
+
+[Gauge Kenari]
+LON=106.84458333333332
+LAT=-6.18625
+
+[Gauge Paseban]
+LON=106.84875
+LAT=-6.19125
+
+[Gauge Kramat]
+LON=106.84291666666665
+LAT=-6.17875
+
+[Gauge Kwitang]
+LON=106.84375
+LAT=-6.184583333333316
+
+[Gauge Bungur]
+LON=106.84625
+LAT=-6.174583333333316
+
+[Gauge CempakaPutihTimur]
+LON=106.87541666666665
+LAT=-6.180416666666649
+
+[Gauge CempakaPutihBarat]
+LON=106.86958333333332
+LAT=-6.184583333333316
+
+[Gauge Rawasari]
+LON=106.87125
+LAT=-6.18625
+
+[Gauge Menteng]
+LON=106.82791666666665
+LAT=-6.20375
+
+[Gauge Pegangsaan]
+LON=106.85375
+LAT=-6.202916666666649
+
+[Gauge Cikini]
+LON=106.84041666666666
+LAT=-6.189583333333315
+
+[Gauge Gondangdia]
+LON=106.82125
+LAT=-6.19375
+
+[Gauge KebonSirih]
+LON=106.83625
+LAT=-6.182916666666649
+
+[Gauge Gelora]
+LON=106.80541666666666
+LAT=-6.210416666666648
+
+[Gauge BendunganHilir]
+LON=106.81125
+LAT=-6.202916666666649
+
+[Gauge KaretTengsin]
+LON=106.82041666666666
+LAT=-6.202916666666649
+
+[Gauge Petamburan]
+LON=106.80958333333332
+LAT=-6.197083333333316
+
+[Gauge KebonMelati]
+LON=106.81625
+LAT=-6.19375
+
+[Gauge KebonKacang]
+LON=106.81375
+LAT=-6.18875
+
+[Gauge KampungBali]
+LON=106.81291666666665
+LAT=-6.18375
+
+[Gauge JoharBaru]
+LON=106.85291666666666
+LAT=-6.187083333333315
+
+[Gauge KampungRawa]
+LON=106.85458333333332
+LAT=-6.180416666666649
+
+[Gauge Galur]
+LON=106.85291666666666
+LAT=-6.174583333333316
+
+[Gauge TanahTinggi]
+LON=106.84625
+LAT=-6.17875
+
+[Gauge Penjaringan]
+LON=106.80208333333331
+LAT=-6.12375
+
+[Gauge KamalMuara]
+LON=106.72958333333332
+LAT=-6.09625
+
+[Gauge KapukMuara]
+LON=106.77458333333333
+LAT=-6.124583333333315
+
+[Gauge Pejagalan]
+LON=106.77375
+LAT=-6.122083333333316
+
+[Gauge Pluit]
+LON=106.7771052949492
+LAT=-6.110451062723065
+
+[Gauge TanjungPriok]
+LON=106.87625041532358
+LAT=-6.107128502535859
+
+[Gauge SunterJaya]
+LON=106.87875
+LAT=-6.162916666666649
+
+[Gauge Papanggo]
+LON=106.86375
+LAT=-6.12125
+
+[Gauge SungaiBambu]
+LON=106.88208333333333
+LAT=-6.134583333333316
+
+[Gauge KebonBawang]
+LON=106.89291666666665
+LAT=-6.12125
+
+[Gauge SunterAgung]
+LON=106.85625
+LAT=-6.150416666666649
+
+[Gauge Warakas]
+LON=106.87291666666665
+LAT=-6.12375
+
+[Gauge Koja]
+LON=106.90541666666665
+LAT=-6.107916666666648
+
+[Gauge TuguUtara]
+LON=106.90375
+LAT=-6.119583333333315
+
+[Gauge Lagoa]
+LON=106.90458333333332
+LAT=-6.112083333333315
+
+[Gauge RawaBadakUtara]
+LON=106.90291666666666
+LAT=-6.122083333333316
+
+[Gauge TuguSelatan]
+LON=106.91875
+LAT=-6.132083333333315
+
+[Gauge RawaBadakSelatan]
+LON=106.90291666666666
+LAT=-6.12375
+
+[Gauge Cilincing]
+LON=106.94125
+LAT=-6.09875
+
+[Gauge Sukapura]
+LON=106.91708333333332
+LAT=-6.137916666666649
+
+[Gauge Marunda]
+LON=106.95791666666665
+LAT=-6.097083333333315
+
+[Gauge Kalibaru]
+LON=106.91041666666665
+LAT=-6.10875
+
+[Gauge SemperTimur]
+LON=106.93708333333332
+LAT=-6.115416666666649
+
+[Gauge Rorotan]
+LON=106.96708333333332
+LAT=-6.154583333333315
+
+[Gauge SemperBarat]
+LON=106.92708333333333
+LAT=-6.124583333333315
+
+[Gauge PademanganTimur]
+LON=106.84291666666665
+LAT=-6.149583333333315
+
+[Gauge PademanganBarat]
+LON=106.83291666666665
+LAT=-6.137916666666649
+
+[Gauge Ancol]
+LON=106.82626118846973
+LAT=-6.123705661444658
+
+[Gauge KelapaGadingTimur]
+LON=106.90958333333332
+LAT=-6.17125
+
+[Gauge PegangsaanDua]
+LON=106.91625
+LAT=-6.140416666666649
+
+[Gauge KelapaGadingBarat]
+LON=106.90125
+LAT=-6.139583333333316
+
+[Gauge CengkarengBarat]
+LON=106.71958333333332
+LAT=-6.129583333333315
+
+[Gauge DuriKosambi]
+LON=106.72375
+LAT=-6.182916666666649
+
+[Gauge RawaBuaya]
+LON=106.74875
+LAT=-6.165416666666649
+
+[Gauge KedaungKaliAngke]
+LON=106.76708333333332
+LAT=-6.149583333333315
+
+[Gauge Kapuk]
+LON=106.77125
+LAT=-6.14125
+
+[Gauge CengkarengTimur]
+LON=106.73041666666666
+LAT=-6.13875
+
+[Gauge Grogol]
+LON=106.79541666666665
+LAT=-6.157083333333316
+
+[Gauge TanjungDurenUtara]
+LON=106.78041666666665
+LAT=-6.167916666666649
+
+[Gauge Tomang]
+LON=106.78875
+LAT=-6.169583333333315
+
+[Gauge Jelambar]
+LON=106.79208333333332
+LAT=-6.157916666666648
+
+[Gauge TanjungDurenSelatan]
+LON=106.78958333333333
+LAT=-6.17375
+
+[Gauge JelambarBaru]
+LON=106.79375
+LAT=-6.15125
+
+[Gauge WijayaKusuma]
+LON=106.76958333333332
+LAT=-6.155416666666649
+
+[Gauge TamanSari]
+LON=106.82625
+LAT=-6.149583333333315
+
+[Gauge Krukut]
+LON=106.81291666666665
+LAT=-6.159583333333315
+
+[Gauge Maphar]
+LON=106.82791666666665
+LAT=-6.162083333333316
+
+[Gauge Tangki]
+LON=106.82541666666665
+LAT=-6.14625
+
+[Gauge ManggaBesar]
+LON=106.82041666666666
+LAT=-6.14125
+
+[Gauge Keagungan]
+LON=106.81208333333332
+LAT=-6.14875
+
+[Gauge Glodok]
+LON=106.81291666666665
+LAT=-6.147916666666648
+
+[Gauge Pinangsia]
+LON=106.82208333333332
+LAT=-6.139583333333316
+
+[Gauge Tambora]
+LON=106.80708333333332
+LAT=-6.145416666666649
+
+[Gauge KaliAnyar]
+LON=106.79625
+LAT=-6.155416666666649
+
+[Gauge DuriUtara]
+LON=106.80208333333331
+LAT=-6.154583333333315
+
+[Gauge TanahSereal]
+LON=106.80875
+LAT=-6.160416666666649
+
+[Gauge Krendang]
+LON=106.80125
+LAT=-6.15125
+
+[Gauge JembatanBesi]
+LON=106.79375
+LAT=-6.149583333333315
+
+[Gauge Angke]
+LON=106.78958333333333
+LAT=-6.142916666666649
+
+[Gauge JembatanLima]
+LON=106.80125
+LAT=-6.142083333333315
+
+[Gauge Pekojan]
+LON=106.80041666666665
+LAT=-6.13875
+
+[Gauge RoaMalaka]
+LON=106.80791666666666
+LAT=-6.132083333333315
+
+[Gauge DuriSelatan]
+LON=106.80791666666666
+LAT=-6.16125
+
+[Gauge KebonJeruk]
+LON=106.75708333333333
+LAT=-6.19125
+
+[Gauge SukabumiUtara]
+LON=106.77458333333333
+LAT=-6.202916666666649
+
+[Gauge SukabumiSelatan]
+LON=106.76541666666665
+LAT=-6.217083333333315
+
+[Gauge KelapaDua]
+LON=106.76458333333332
+LAT=-6.202916666666649
+
+[Gauge DuriKepa]
+LON=106.77291666666666
+LAT=-6.16375
+
+[Gauge KedoyaUtara]
+LON=106.76208333333332
+LAT=-6.15875
+
+[Gauge KedoyaSelatan]
+LON=106.75375
+LAT=-6.17625
+
+[Gauge Kalideres]
+LON=106.68875
+LAT=-6.13125
+
+[Gauge Semanan]
+LON=106.71625
+LAT=-6.162083333333316
+
+[Gauge TegalAlur]
+LON=106.71625
+LAT=-6.104583333333315
+
+[Gauge Kamal]
+LON=106.70625
+LAT=-6.112916666666648
+
+[Gauge Pegadungan]
+LON=106.69958333333332
+LAT=-6.117083333333316
+
+[Gauge Palmerah]
+LON=106.79375
+LAT=-6.195416666666649
+
+[Gauge Slipi]
+LON=106.80541666666666
+LAT=-6.189583333333315
+
+[Gauge KotaBambuUtara]
+LON=106.80958333333332
+LAT=-6.185416666666649
+
+[Gauge Jatipulo]
+LON=106.80958333333332
+LAT=-6.182083333333315
+
+[Gauge Kemanggisan]
+LON=106.79375
+LAT=-6.182083333333315
+
+[Gauge KotaBambuSelatan]
+LON=106.80791666666666
+LAT=-6.187083333333315
+
+[Gauge KembanganUtara]
+LON=106.75708333333333
+LAT=-6.16125
+
+[Gauge MeruyaUtara]
+LON=106.73875
+LAT=-6.192083333333315
+
+[Gauge MeruyaSelatan]
+LON=106.72041666666665
+LAT=-6.212916666666649
+
+[Gauge Srengseng]
+LON=106.76458333333332
+LAT=-6.207083333333316
+
+[Gauge Joglo]
+LON=106.74791666666665
+LAT=-6.21375
+
+[Gauge KembanganSelatan]
+LON=106.72791666666666
+LAT=-6.179583333333316
+
+[Gauge TebetTimur]
+LON=106.85791666666665
+LAT=-6.227916666666649
+
+[Gauge TebetBarat]
+LON=106.85208333333333
+LAT=-6.22875
+
+[Gauge MentengDalam]
+LON=106.83625
+LAT=-6.22625
+
+[Gauge KebonBaru]
+LON=106.85875
+LAT=-6.22625
+
+[Gauge BukitDuri]
+LON=106.85958333333332
+LAT=-6.217083333333315
+
+[Gauge ManggaraiSelatan]
+LON=106.85208333333333
+LAT=-6.219583333333316
+
+[Gauge Manggarai]
+LON=106.85625
+LAT=-6.212083333333315
+
+[Gauge SetiaBudi]
+LON=106.82291666666666
+LAT=-6.204583333333315
+
+[Gauge KaretSemanggi]
+LON=106.81708333333331
+LAT=-6.21625
+
+[Gauge KaretKuningan]
+LON=106.83541666666666
+LAT=-6.21625
+
+[Gauge Karet]
+LON=106.83375
+LAT=-6.212916666666649
+
+[Gauge MentengAtas]
+LON=106.83625
+LAT=-6.217083333333315
+
+[Gauge PasarManggis]
+LON=106.84708333333332
+LAT=-6.20875
+
+[Gauge Guntur]
+LON=106.83041666666665
+LAT=-6.204583333333315
+
+[Gauge KuninganTimur]
+LON=106.83541666666666
+LAT=-6.229583333333315
+
+[Gauge MampangPrapatan]
+LON=106.82208333333332
+LAT=-6.24125
+
+[Gauge Bangka]
+LON=106.81041666666665
+LAT=-6.255416666666649
+
+[Gauge PelaMampang]
+LON=106.81041666666665
+LAT=-6.24875
+
+[Gauge TegalParang]
+LON=106.82291666666666
+LAT=-6.247916666666649
+
+[Gauge KuninganBarat]
+LON=106.81708333333331
+LAT=-6.227083333333315
+
+[Gauge PasarMinggu]
+LON=106.83458333333333
+LAT=-6.29625
+
+[Gauge JatiPadang]
+LON=106.83375
+LAT=-6.279583333333315
+
+[Gauge CilandakTimur]
+LON=106.81125
+LAT=-6.279583333333315
+
+[Gauge Ragunan]
+LON=106.82625
+LAT=-6.30375
+
+[Gauge PejatenTimur]
+LON=106.85541666666666
+LAT=-6.269583333333316
+
+[Gauge PejatenBarat]
+LON=106.83375
+LAT=-6.26875
+
+[Gauge Kebagusan]
+LON=106.82958333333332
+LAT=-6.297916666666649
+
+[Gauge KebayoranLamaUtara]
+LON=106.76875
+LAT=-6.24375
+
+[Gauge PondokPinang]
+LON=106.77041666666665
+LAT=-6.264583333333316
+
+[Gauge Cipulir]
+LON=106.76625
+LAT=-6.237083333333316
+
+[Gauge GrogolUtara]
+LON=106.79041666666666
+LAT=-6.207916666666649
+
+[Gauge GrogolSelatan]
+LON=106.76541666666665
+LAT=-6.232916666666648
+
+[Gauge KebayoranLamaSelatan]
+LON=106.76958333333332
+LAT=-6.25375
+
+[Gauge CilandakBarat]
+LON=106.81208333333332
+LAT=-6.27875
+
+[Gauge LebakBulus]
+LON=106.76875
+LAT=-6.290416666666649
+
+[Gauge PondokLabu]
+LON=106.80875
+LAT=-6.304583333333316
+
+[Gauge GandariaSelatan]
+LON=106.78708333333333
+LAT=-6.267083333333316
+
+[Gauge CipeteSelatan]
+LON=106.81291666666665
+LAT=-6.272083333333316
+
+[Gauge Melawai]
+LON=106.80125
+LAT=-6.240416666666649
+
+[Gauge Gunung]
+LON=106.79625
+LAT=-6.229583333333315
+
+[Gauge KramatPela]
+LON=106.78625
+LAT=-6.239583333333315
+
+[Gauge Selong]
+LON=106.80958333333332
+LAT=-6.232083333333316
+
+[Gauge RawaBarat]
+LON=106.81791666666666
+LAT=-6.237083333333316
+
+[Gauge Senayan]
+LON=106.81458333333332
+LAT=-6.22375
+
+[Gauge Pulo]
+LON=106.80625
+LAT=-6.247916666666649
+
+[Gauge Petogogan]
+LON=106.81541666666665
+LAT=-6.239583333333315
+
+[Gauge GandariaUtara]
+LON=106.78875
+LAT=-6.252083333333315
+
+[Gauge CipeteUtara]
+LON=106.81208333333332
+LAT=-6.26375
+
+[Gauge Pancoran]
+LON=106.83625
+LAT=-6.242083333333316
+
+[Gauge Kalibata]
+LON=106.82708333333332
+LAT=-6.26125
+
+[Gauge Rawajati]
+LON=106.86041666666665
+LAT=-6.255416666666649
+
+[Gauge DurenTiga]
+LON=106.82541666666665
+LAT=-6.25375
+
+[Gauge Pengadegan]
+LON=106.86208333333332
+LAT=-6.247083333333316
+
+[Gauge Cikoko]
+LON=106.86208333333332
+LAT=-6.24375
+
+[Gauge Jagakarsa]
+LON=106.80875
+LAT=-6.312083333333316
+
+[Gauge SrengsengSawah]
+LON=106.83958333333332
+LAT=-6.345416666666649
+
+[Gauge Ciganjur]
+LON=106.80791666666666
+LAT=-6.32125
+
+[Gauge LentengAgung]
+LON=106.84375
+LAT=-6.317916666666649
+
+[Gauge TanjungBarat]
+LON=106.85208333333333
+LAT=-6.297916666666649
+
+[Gauge Cipedak]
+LON=106.79375
+LAT=-6.347083333333316
+
+[Gauge Pesanggrahan]
+LON=106.76125
+LAT=-6.24875
+
+[Gauge Bintaro]
+LON=106.77125
+LAT=-6.255416666666649
+
+[Gauge PetukanganUtara]
+LON=106.75958333333332
+LAT=-6.232083333333316
+
+[Gauge PetukanganSelatan]
+LON=106.76041666666666
+LAT=-6.242916666666649
+
+[Gauge Ulujami]
+LON=106.76625
+LAT=-6.224583333333316
+
+[Gauge PisanganBaru]
+LON=106.86708333333333
+LAT=-6.20875
+
+[Gauge UtanKayuUtara]
+LON=106.86291666666665
+LAT=-6.19875
+
+[Gauge KayuManis]
+LON=106.86041666666665
+LAT=-6.199583333333315
+
+[Gauge Palmeriam]
+LON=106.85625
+LAT=-6.200416666666649
+
+[Gauge KebonManggis]
+LON=106.85375
+LAT=-6.200416666666649
+
+[Gauge UtanKayuSelatan]
+LON=106.86625
+LAT=-6.207916666666649
+
+[Gauge PuloGadung]
+LON=106.89375
+LAT=-6.177916666666649
+
+[Gauge PisanganTimur]
+LON=106.88041666666666
+LAT=-6.202083333333316
+
+[Gauge Cipinang]
+LON=106.89625
+LAT=-6.20875
+
+[Gauge JatinegaraKaum]
+LON=106.90208333333332
+LAT=-6.20625
+
+[Gauge Rawamangun]
+LON=106.87541666666665
+LAT=-6.190416666666649
+
+[Gauge KayuPutih]
+LON=106.88541666666666
+LAT=-6.170416666666648
+
+[Gauge Jati]
+LON=106.89125
+LAT=-6.190416666666649
+
+[Gauge KampungMelayu]
+LON=106.85791666666665
+LAT=-6.214583333333316
+
+[Gauge BidaraCina]
+LON=106.86291666666665
+LAT=-6.242083333333316
+
+[Gauge BaliMester]
+LON=106.86458333333331
+LAT=-6.215416666666648
+
+[Gauge RawaBunga]
+LON=106.86625
+LAT=-6.214583333333316
+
+[Gauge CipinangCempedak]
+LON=106.87625
+LAT=-6.242916666666649
+
+[Gauge CipinangMuara]
+LON=106.89541666666665
+LAT=-6.214583333333316
+
+[Gauge CipinangBesarSelatan]
+LON=106.87625
+LAT=-6.22625
+
+[Gauge CipinangBesarUtara]
+LON=106.87541666666665
+LAT=-6.225416666666649
+
+[Gauge Kramatjati]
+LON=106.87541666666665
+LAT=-6.284583333333315
+
+[Gauge Tengah]
+LON=106.86708333333333
+LAT=-6.282916666666649
+
+[Gauge Dukuh]
+LON=106.87541666666665
+LAT=-6.28125
+
+[Gauge BatuAmpar]
+LON=106.86625
+LAT=-6.26875
+
+[Gauge Balekambang]
+LON=106.85625
+LAT=-6.267916666666649
+
+[Gauge Cililitan]
+LON=106.86041666666665
+LAT=-6.25875
+
+[Gauge Cawang]
+LON=106.86208333333332
+LAT=-6.24625
+
+[Gauge Gedong]
+LON=106.85208333333333
+LAT=-6.29625
+
+[Gauge Baru]
+LON=106.84791666666665
+LAT=-6.317083333333316
+
+[Gauge Cijantung]
+LON=106.85791666666665
+LAT=-6.312083333333316
+
+[Gauge Kalisari]
+LON=106.84041666666666
+LAT=-6.332916666666649
+
+[Gauge Pekayon]
+LON=106.87208333333332
+LAT=-6.34375
+
+[Gauge Jatinegara]
+LON=106.92041666666665
+LAT=-6.192916666666648
+
+[Gauge RawaTerate]
+LON=106.92291666666665
+LAT=-6.162916666666649
+
+[Gauge Penggilingan]
+LON=106.93125
+LAT=-6.187916666666649
+
+[Gauge CakungTimur]
+LON=106.94375
+LAT=-6.18625
+
+[Gauge PuloGebang]
+LON=106.95791666666665
+LAT=-6.195416666666649
+
+[Gauge UjungMenteng]
+LON=106.94875
+LAT=-6.187083333333315
+
+[Gauge CakungBarat]
+LON=106.92291666666665
+LAT=-6.16125
+
+[Gauge DurenSawit]
+LON=106.92375
+LAT=-6.220416666666649
+
+[Gauge PondokBambu]
+LON=106.89541666666665
+LAT=-6.22375
+
+[Gauge Klender]
+LON=106.89625
+LAT=-6.21375
+
+[Gauge PondokKelapa]
+LON=106.93125
+LAT=-6.232916666666648
+
+[Gauge MalakaSari]
+LON=106.92458333333332
+LAT=-6.219583333333316
+
+[Gauge MalakaJaya]
+LON=106.93208333333332
+LAT=-6.227916666666649
+
+[Gauge PondokKopi]
+LON=106.94541666666666
+LAT=-6.21875
+
+[Gauge Makasar]
+LON=106.88208333333333
+LAT=-6.272916666666649
+
+[Gauge Pinangranti]
+LON=106.88041666666666
+LAT=-6.282916666666649
+
+[Gauge KebonPala]
+LON=106.88125
+LAT=-6.247916666666649
+
+[Gauge HalimPerdanaKusuma]
+LON=106.89958333333333
+LAT=-6.24625
+
+[Gauge CipinangMelayu]
+LON=106.89541666666665
+LAT=-6.24125
+
+[Gauge Ciracas]
+LON=106.88125
+LAT=-6.317916666666649
+
+[Gauge Cibubur]
+LON=106.87291666666665
+LAT=-6.340416666666649
+
+[Gauge KelapaDuaWetan]
+LON=106.88125
+LAT=-6.32875
+
+[Gauge Susukan]
+LON=106.87208333333332
+LAT=-6.305416666666649
+
+[Gauge Rambutan]
+LON=106.88125
+LAT=-6.30625
+
+[Gauge Cipayung]
+LON=106.89708333333333
+LAT=-6.334583333333316
+
+[Gauge Cilangkap]
+LON=106.92041666666665
+LAT=-6.330416666666649
+
+[Gauge PondokRanggon]
+LON=106.91875
+LAT=-6.342916666666649
+
+[Gauge Munjul]
+LON=106.90041666666666
+LAT=-6.342916666666649
+
+[Gauge Setu]
+LON=106.92125
+LAT=-6.302916666666649
+
+[Gauge BambuApus]
+LON=106.91375
+LAT=-6.30625
+
+[Gauge LubangBuaya]
+LON=106.91041666666665
+LAT=-6.287083333333316
+
+[Gauge Ceger]
+LON=106.89541666666665
+LAT=-6.299583333333316
+
+[Basin Jakarta]
+GAUGE=Gambir
+GAUGE=Cideng
+GAUGE=PetojoUtara
+GAUGE=PetojoSelatan
+GAUGE=KebonKelapa
+GAUGE=DuriPulo
+GAUGE=PasarBaru
+GAUGE=KarangAnyar
+GAUGE=Kartini
+GAUGE=GunungSahariUtara
+GAUGE=ManggaDuaSelatan
+GAUGE=Kemayoran
+GAUGE=KebonKosong
+GAUGE=HarapanMulia
+GAUGE=Serdang
+GAUGE=GunungSahariSelatan
+GAUGE=CempakaBaru
+GAUGE=SumurBatu
+GAUGE=UtanPanjang
+GAUGE=Senen
+GAUGE=Kenari
+GAUGE=Paseban
+GAUGE=Kramat
+GAUGE=Kwitang
+GAUGE=Bungur
+GAUGE=CempakaPutihTimur
+GAUGE=CempakaPutihBarat
+GAUGE=Rawasari
+GAUGE=Menteng
+GAUGE=Pegangsaan
+GAUGE=Cikini
+GAUGE=Gondangdia
+GAUGE=KebonSirih
+GAUGE=Gelora
+GAUGE=BendunganHilir
+GAUGE=KaretTengsin
+GAUGE=Petamburan
+GAUGE=KebonMelati
+GAUGE=KebonKacang
+GAUGE=KampungBali
+GAUGE=JoharBaru
+GAUGE=KampungRawa
+GAUGE=Galur
+GAUGE=TanahTinggi
+GAUGE=Penjaringan
+GAUGE=KamalMuara
+GAUGE=KapukMuara
+GAUGE=Pejagalan
+GAUGE=Pluit
+GAUGE=TanjungPriok
+GAUGE=SunterJaya
+GAUGE=Papanggo
+GAUGE=SungaiBambu
+GAUGE=KebonBawang
+GAUGE=SunterAgung
+GAUGE=Warakas
+GAUGE=Koja
+GAUGE=TuguUtara
+GAUGE=Lagoa
+GAUGE=RawaBadakUtara
+GAUGE=TuguSelatan
+GAUGE=RawaBadakSelatan
+GAUGE=Cilincing
+GAUGE=Sukapura
+GAUGE=Marunda
+GAUGE=Kalibaru
+GAUGE=SemperTimur
+GAUGE=Rorotan
+GAUGE=SemperBarat
+GAUGE=PademanganTimur
+GAUGE=PademanganBarat
+GAUGE=Ancol
+GAUGE=KelapaGadingTimur
+GAUGE=PegangsaanDua
+GAUGE=KelapaGadingBarat
+GAUGE=CengkarengBarat
+GAUGE=DuriKosambi
+GAUGE=RawaBuaya
+GAUGE=KedaungKaliAngke
+GAUGE=Kapuk
+GAUGE=CengkarengTimur
+GAUGE=Grogol
+GAUGE=TanjungDurenUtara
+GAUGE=Tomang
+GAUGE=Jelambar
+GAUGE=TanjungDurenSelatan
+GAUGE=JelambarBaru
+GAUGE=WijayaKusuma
+GAUGE=TamanSari
+GAUGE=Krukut
+GAUGE=Maphar
+GAUGE=Tangki
+GAUGE=ManggaBesar
+GAUGE=Keagungan
+GAUGE=Glodok
+GAUGE=Pinangsia
+GAUGE=Tambora
+GAUGE=KaliAnyar
+GAUGE=DuriUtara
+GAUGE=TanahSereal
+GAUGE=Krendang
+GAUGE=JembatanBesi
+GAUGE=Angke
+GAUGE=JembatanLima
+GAUGE=Pekojan
+GAUGE=RoaMalaka
+GAUGE=DuriSelatan
+GAUGE=KebonJeruk
+GAUGE=SukabumiUtara
+GAUGE=SukabumiSelatan
+GAUGE=KelapaDua
+GAUGE=DuriKepa
+GAUGE=KedoyaUtara
+GAUGE=KedoyaSelatan
+GAUGE=Kalideres
+GAUGE=Semanan
+GAUGE=TegalAlur
+GAUGE=Kamal
+GAUGE=Pegadungan
+GAUGE=Palmerah
+GAUGE=Slipi
+GAUGE=KotaBambuUtara
+GAUGE=Jatipulo
+GAUGE=Kemanggisan
+GAUGE=KotaBambuSelatan
+GAUGE=KembanganUtara
+GAUGE=MeruyaUtara
+GAUGE=MeruyaSelatan
+GAUGE=Srengseng
+GAUGE=Joglo
+GAUGE=KembanganSelatan
+GAUGE=TebetTimur
+GAUGE=TebetBarat
+GAUGE=MentengDalam
+GAUGE=KebonBaru
+GAUGE=BukitDuri
+GAUGE=ManggaraiSelatan
+GAUGE=Manggarai
+GAUGE=SetiaBudi
+GAUGE=KaretSemanggi
+GAUGE=KaretKuningan
+GAUGE=Karet
+GAUGE=MentengAtas
+GAUGE=PasarManggis
+GAUGE=Guntur
+GAUGE=KuninganTimur
+GAUGE=MampangPrapatan
+GAUGE=Bangka
+GAUGE=PelaMampang
+GAUGE=TegalParang
+GAUGE=KuninganBarat
+GAUGE=PasarMinggu
+GAUGE=JatiPadang
+GAUGE=CilandakTimur
+GAUGE=Ragunan
+GAUGE=PejatenTimur
+GAUGE=PejatenBarat
+GAUGE=Kebagusan
+GAUGE=KebayoranLamaUtara
+GAUGE=PondokPinang
+GAUGE=Cipulir
+GAUGE=GrogolUtara
+GAUGE=GrogolSelatan
+GAUGE=KebayoranLamaSelatan
+GAUGE=CilandakBarat
+GAUGE=LebakBulus
+GAUGE=PondokLabu
+GAUGE=GandariaSelatan
+GAUGE=CipeteSelatan
+GAUGE=Melawai
+GAUGE=Gunung
+GAUGE=KramatPela
+GAUGE=Selong
+GAUGE=RawaBarat
+GAUGE=Senayan
+GAUGE=Pulo
+GAUGE=Petogogan
+GAUGE=GandariaUtara
+GAUGE=CipeteUtara
+GAUGE=Pancoran
+GAUGE=Kalibata
+GAUGE=Rawajati
+GAUGE=DurenTiga
+GAUGE=Pengadegan
+GAUGE=Cikoko
+GAUGE=Jagakarsa
+GAUGE=SrengsengSawah
+GAUGE=Ciganjur
+GAUGE=LentengAgung
+GAUGE=TanjungBarat
+GAUGE=Cipedak
+GAUGE=Pesanggrahan
+GAUGE=Bintaro
+GAUGE=PetukanganUtara
+GAUGE=PetukanganSelatan
+GAUGE=Ulujami
+GAUGE=PisanganBaru
+GAUGE=UtanKayuUtara
+GAUGE=KayuManis
+GAUGE=Palmeriam
+GAUGE=KebonManggis
+GAUGE=UtanKayuSelatan
+GAUGE=PuloGadung
+GAUGE=PisanganTimur
+GAUGE=Cipinang
+GAUGE=JatinegaraKaum
+GAUGE=Rawamangun
+GAUGE=KayuPutih
+GAUGE=Jati
+GAUGE=KampungMelayu
+GAUGE=BidaraCina
+GAUGE=BaliMester
+GAUGE=RawaBunga
+GAUGE=CipinangCempedak
+GAUGE=CipinangMuara
+GAUGE=CipinangBesarSelatan
+GAUGE=CipinangBesarUtara
+GAUGE=Kramatjati
+GAUGE=Tengah
+GAUGE=Dukuh
+GAUGE=BatuAmpar
+GAUGE=Balekambang
+GAUGE=Cililitan
+GAUGE=Cawang
+GAUGE=Gedong
+GAUGE=Baru
+GAUGE=Cijantung
+GAUGE=Kalisari
+GAUGE=Pekayon
+GAUGE=Jatinegara
+GAUGE=RawaTerate
+GAUGE=Penggilingan
+GAUGE=CakungTimur
+GAUGE=PuloGebang
+GAUGE=UjungMenteng
+GAUGE=CakungBarat
+GAUGE=DurenSawit
+GAUGE=PondokBambu
+GAUGE=Klender
+GAUGE=PondokKelapa
+GAUGE=MalakaSari
+GAUGE=MalakaJaya
+GAUGE=PondokKopi
+GAUGE=Makasar
+GAUGE=Pinangranti
+GAUGE=KebonPala
+GAUGE=HalimPerdanaKusuma
+GAUGE=CipinangMelayu
+GAUGE=Ciracas
+GAUGE=Cibubur
+GAUGE=KelapaDuaWetan
+GAUGE=Susukan
+GAUGE=Rambutan
+GAUGE=Cipayung
+GAUGE=Cilangkap
+GAUGE=PondokRanggon
+GAUGE=Munjul
+GAUGE=Setu
+GAUGE=BambuApus
+GAUGE=LubangBuaya
+GAUGE=Ceger
+
+[SimpleInundationParamSet Jakarta]
+gauge=Pluit
+alpha=2.991570
+beta=0.932080
+
+gauge=KapukMuara
+alpha=2.991570
+beta=0.932080
+
+gauge=Pejagalan
+alpha=2.991570
+beta=0.932080
+
+gauge=Ancol
+alpha=2.991570
+beta=0.932080
+
+gauge=ManggaDuaSelatan
+alpha=2.991570
+beta=0.932080
+
+[CrestParamSet EF5KY]
+wm_grid=/data/parameters/CREST/jabar/soil_param_wm_5km_global_corrected_jabar.tif
+im_grid=/data/parameters/CREST/jabar/imperv_5km_global_jabar.tif
+fc_grid=/data/parameters/CREST/jabar/soil_param_fc_5km_global_corrected_jabar.tif
+b_grid=/data/parameters/CREST/jabar/soil_param_b_5km_global_corrected_jabar.tif
+gauge=Pluit
+wm=1.0
+b=1.0
+im=0.01
+ke=1.0
+fc=1.00
+iwu=75.0
+
+[KWParamSet EF5KY]
+under_grid=/data/parameters/CREST/jabar/soil_param_fc_5km_global_corrected_jabar.tif
+#leaki_grid=/data/parameters/KW/leaki_KY.tif
+alpha_grid=/data/parameters/KW/jabar/Alpha_World_5km_geo_v0_jabar.tif
+beta_grid=/data/parameters/KW/jabar/Beta_World_5km_geo_v0_jabar.tif
+alpha0_grid=/data/parameters/KW/jabar/Alpha0_World_5km_geo_v0_jabar.tif
+gauge=Pluit
+alpha0=1.0
+alpha=1.0
+beta=1.0
+under=0.0001
+leaki=1.0
+th=10.0
+isu=00.0
+
+[Task CREST_Simulation]
+STYLE=simu
+MODEL=crest
+ROUTING=KW
+BASIN=Jakarta
+PRECIP=SCAMPR
+PRECIPFORECAST=ECMWF
+PET=FAO
+OUTPUT=/results/jakarta
+STATES=/data/states/jakarta
+defaultparamsgauge=Pluit
+PARAM_SET=EF5KY
+ROUTING_PARAM_Set=EF5KY
+INUNDATION=SIMPLEINUNDATION
+INUNDATION_PARAM_SET=Jakarta
+output_grids=MAXUNITSTREAMFLOW|MAXSTREAMFLOW|STREAMFLOW|SOILMOISTURE|INUNDATION|PRECIP
+TIMESTEP=10u
+TIME_BEGIN=20250804000000
+#TIME_WARMEND=20250804000000
+TIME_STATE=20250805000000
+TIME_END=20250805000000
+
+[Execute]
+task=CREST_Simulation
