@@ -46,11 +46,11 @@ To run EF5, the following datasets and resources are required:
 ### 3. Prepare CREST grid parameters
 - Use the gridded CREST data from the [Hydroslab repository](https://github.com/HyDROSLab/EF5-Global-Parameters).  
 - Note: `soil_param_b`, `soil_param_fc`, and `soil_param_wm` are shifted northwest by a few pixels. Adjust them in QGIS, then shift back before clipping.  
-- Regrid to match the DEM resolution.  
+- Regrid to match the DEM resolution. Update: regridding can cause inaccurate result, ignore the regridding process for CREST, KW, and PET  
 - Example: see *Align CREST Grid Parameters* and *Regridding CREST Parameters* in `clip_basic_data.ipynb`.
 
 ### 4. Prepare KW and PET data
-- Apply the same clipping and regridding steps as for CREST parameters.  
+- Apply the same clipping and regridding steps as for CREST parameters. Update: regridding can cause inaccurate result, ignore the regridding process for CREST, KW, and PET   
 
 ### 5. Prepare precipitation data
 - **SCAMPR (preferred, available from Feb 2025):**  
@@ -65,7 +65,8 @@ To run EF5, the following datasets and resources are required:
 - If no gauge data is available, create virtual gauges by:  
   - Clipping FAM with administrative boundaries.  
   - Selecting the coordinates of the maximum FAM value in each area.  
-- See *Automate Gauge Placement* and *Generate Gauge and Basin* in `clip_basic_data.ipynb`.  
+- See *Automate Gauge Placement* and *Generate Gauge and Basin* in `clip_basic_data.ipynb`.
+- Gauge can also be placed manually by analyzing the data in QGIS.
 
 ### 7. Configuration file
 - EF5 runs are controlled by a configuration file.  
